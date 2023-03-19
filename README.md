@@ -12,13 +12,14 @@ A simple Java Web Application, that allow to create and modify data for supplier
 The webapp is running on AWS, while the Postgres database is hosted on Render, and it's avaiable to test his function.
 #### Tech stack:
 - Java, Postgres, Jsp, Tomcat, Maven
-- Infrascturcture: Render (Database Postgres), Aws Tomcat (Web application)
+- Infrascturcture: Render (Database Postgres), Aws Tomcat on Elastic Beanstalk (Web application)
 
 ### GoodFather-Pizza [💻Live Version](http://goodfather.eu-north-1.elasticbeanstalk.com/home?) [📄 Repo](https://github.com/LucaBinotto/GoodFather-Pizza)
 A concept online menu, with the possibility to place, edit and visualize order online.
 It also implements some Junits test to check the functionality. The ordering part, is implemented using a decorator pattern.
 #### Tech stack:
 - Java, Spring Boot, HTML, Junit, Maven
+- Infrascturcture: Aws on Elastic Beanstalk (Web application)
 
 ### BuildingReservation [📄 Repo](https://github.com/LucaBinotto/BuildingReservation)
 This repository is a backend that expose a series of api to create and save reservations on different building, on a Postgres database.
